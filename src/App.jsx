@@ -1,7 +1,7 @@
 /* eslint react-hooks/exhaustive-deps:off*/
 import React, { useEffect, useState } from "react";
 import ColorfulMessage from "./components/ColorfulMessage";
-import ColorfulMessage2 from "./components/ColorfulMessage2";
+import { ColorfulMessage2 } from "./components/ColorfulMessage2";
 // コンポーネント（jsx基本 jsの中にhtml5を記入）
 // コンポーネント名は必ず先頭を大文字から初める。
 const App = () => {

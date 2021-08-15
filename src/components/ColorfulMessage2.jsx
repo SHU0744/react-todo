@@ -2,7 +2,7 @@
 import React from "react";
 
 //親からpropsの値渡される。
-const ColorfulMessage2 = (props) => {
+export const ColorfulMessage2 = (props) => {
   // console.log(props)
   // 分割代入を使用しても良い
   const { color, children } = props;
@@ -13,6 +13,3 @@ const ColorfulMessage2 = (props) => {
 
   return <p style={contentStyle}>{children}</p>;
 };
-
-// 上記のコンポーネントをexport
-export default ColorfulMessage2;
